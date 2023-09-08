@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Roboto font */
+    background-color: #4267B2;
+    /* Facebook blue background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form,
+.signup-form {
+    text-align: center;
+    min-width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    max-width: 95%;
+    /* Limit the maximum width */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Hide placeholders */
+form input::placeholder {
+    color: transparent;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4267B2;
+    /* Updated button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-account {
+    background-color: #4267B2;
+    /* Updated button color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #4267B2;
+}
+
+a {
+    padding-left: 3px;
+    text-decoration: none;
+}
